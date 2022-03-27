@@ -228,7 +228,7 @@
   }
   .pop-up {
     width: 86%;
-    height: 24vh;
+    height: 26vh;
     margin-left: -27%;
     border: 0.5px solid red;
     opacity: 0.8;
@@ -246,5 +246,7 @@
     font-size: 16px;
     width: 30%;
     padding: 10px;
+
+    margin-bottom: 5px;
   }
 }

@@ -92,8 +92,15 @@
         <textarea class="pop-upbar"></textarea>
       </center>
       <center>
-        <button class="pop-upbutton">ADD</button>
+        <button class="pop-upbutton" id="demo" type="button" onclick="myFunction()">ADD</button>
       </center>
     </div>
+    <p id="demo"></p>
+
+    <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Button";
+    }
+    </script>
   </body>
 </html>
